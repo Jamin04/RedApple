@@ -1,0 +1,589 @@
+
+{% extends 'layout.html' %}
+
+
+{% load static %}
+
+
+
+{% block body %}
+
+<main class="main">
+
+  <section id="hero" class="hero section light-background">
+
+    <div class="container">
+      <div class="row gy-4 justify-content-center justify-content-lg-between">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h1>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="#book-a-table" class="btn-get-started">Book a Table</a>
+            <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+          <img src="{% static 'assets/img/hero-img.png' %}" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+     
+    <section id="menu" class="menu section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Menu</h2>
+        <p><span>Check Our</span> <span class="description-title">Menu</span></p>
+      </div>
+
+      <div class="container">
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+              <h4>Starters</h4>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
+              <h4>Breakfast</h4>
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
+              <h4>Lunch</h4>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
+              <h4>Dinner</h4>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="menu-starters">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Starters</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-1.png" class="glightbox"><img src="static/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Magnam Tiste</h4>
+                
+                <p class="price">
+                  Kshs. 500/=
+                </p>
+              </div>
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-2.png" class="glightbox"><img src="static/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Aut Luia</h4>
+                
+                <p class="price">
+                  Kshs. 1500/=
+                </p>
+              </div>
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-3.png" class="glightbox"><img src="static/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Est Eligendi</h4>
+                
+                <p class="price">
+                  Kshs. 700/=
+                </p>
+              </div>
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-4.png" class="glightbox"><img src="static/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                
+                <p class="price">
+                  Kshs. 800/=
+                </p>
+              </div>
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-5.png" class="glightbox"><img src="static/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                
+                <p class="price">
+                  Kshs. 1000/=
+                </p>
+              </div>
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-6.png" class="glightbox"><img src="static/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Laboriosam Direva</h4>
+                
+                <p class="price">
+                  Kshs. 1200/=
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="menu-breakfast">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Breakfast</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-1.png" class="glightbox"><img src="static/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Magnam Tiste</h4>
+                
+                <p class="price">
+                  Kshs. 500/=
+                </p>
+              </div>
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-2.png" class="glightbox"><img src="static/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Aut Luia</h4>
+                
+                <p class="price">
+                  Kshs. 800/=
+                </p>
+              </div>
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-3.png" class="glightbox"><img src="static/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Est Eligendi</h4>
+                
+                <p class="price">
+                  Kshs. 950/=
+                </p>
+              </div>
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-4.png" class="glightbox"><img src="static/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                
+                <p class="price">
+                  Kshs. 1200/=
+                </p>
+              </div>
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-5.png" class="glightbox"><img src="static/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                
+                <p class="price">
+                  Kshs. 1500/=
+                </p>
+              </div>
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-6.png" class="glightbox"><img src="static/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Laboriosam Direva</h4>
+                
+                <p class="price">
+                  Kshs. 1650/=
+                </p>
+              </div>
+
+            </div>
+          </div><!-- End Breakfast Menu Content -->
+
+          <div class="tab-pane fade" id="menu-lunch">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Lunch</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-1.png" class="glightbox"><img src="static/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Magnam Tiste</h4>
+                
+                <p class="price">
+                  Kshs. 1200/=
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-2.png" class="glightbox"><img src="static/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Aut Luia</h4>
+                
+                <p class="price">
+                  Kshs. 1500/=
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-3.png" class="glightbox"><img src="static/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Est Eligendi</h4>
+                
+                <p class="price">
+                  Kshs. 1250/=
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-4.png" class="glightbox"><img src="static/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                
+                <p class="price">
+                  Kshs. 1500/=
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-5.png" class="glightbox"><img src="static/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                
+                <p class="price">
+                  Kshs. 1600/=
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-6.png" class="glightbox"><img src="static/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Laboriosam Direva</h4>
+                
+                <p class="price">
+                  Kshs. 2500/=
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Lunch Menu Content -->
+
+          <div class="tab-pane fade" id="menu-dinner">
+
+            <div class="tab-header text-center">
+              <p>Menu</p>
+              <h3>Dinner</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-1.png" class="glightbox"><img src="static/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Magnam Tiste</h4>
+                
+                <p class="price">
+                  Kshs. 900/=
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-2.png" class="glightbox"><img src="static/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Aut Luia</h4>
+                
+                <p class="price">
+                  Kshs. 1100/=
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-3.png" class="glightbox"><img src="static/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Est Eligendi</h4>
+                
+                <p class="price">
+                  Kshs. 2500/=
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-4.png" class="glightbox"><img src="static/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                
+                <p class="price">
+                  Kshs. 500/=
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-5.png" class="glightbox"><img src="static/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Eos Luibusdam</h4>
+                
+                <p class="price">
+                  Kshs. 1500/=
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="static/assets/img/menu/menu-item-6.png" class="glightbox"><img src="static/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Laboriosam Direva</h4>
+                
+                <p class="price">
+                  Kshs. 2500/=
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End Dinner Menu Content -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Menu Section -->
+
+
+
+    <section id="events" class="events section">
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+  
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+  
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(static/assets/img/events-1.jpg)">
+              <h3>Custom Parties
+                <br>
+                Customize Your Celebration: Unique Events at Red Apple
+              </h3>
+              <div class="price align-self-start">Kshs.5,999/=</div>
+              <p class="description">
+                Your Vision, Our Expertise
+                At Red Apple, we believe that every event is unique. That's why we offer a wide range of customizable options to bring your vision to life. Whether it's a corporate event, a product launch, a charity gala, or a private party, we have the expertise to create an unforgettable experience. </p>
+            </div><!-- End Event item -->
+  
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(static/assets/img/events-2.jpg)">
+              <h3>Private Parties
+                <br>
+                Your Private Oasis: Exclusive Parties at Red Apple
+              </h3>
+              <div class="price align-self-start">Kshs.7,999/=</div>
+              <p class="description">
+                Unforgettable Moments, Intimate Settings
+                Looking for a private and exclusive space to host your special occasion? Red Apple offers a range of intimate settings perfect for private parties, from birthday celebrations to corporate retreats.</p>
+            </div><!-- End Event item -->
+  
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(static/assets/img/events-3.jpg)">
+              <h3>Birthday Parties</h3><br>
+              <h3>Celebrate Your Special Day in Style: Unforgettable Birthdays at Red Apple</h3>
+              <div class="price align-self-start">Kshs.9,999/=</div>
+              <p class="description">    
+                  Make your birthday a dream come true! <br>
+                  At Red apple, we believe that birthdays should be celebrated in style. Our stunning event spaces, delectable cuisine, and impeccable service are the perfect recipe for an unforgettable celebration.  </p>
+            </div><!-- End Event item -->
+  
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(static/assets/img/events-4.jpg)">
+              <h3>Wedding Parties
+                <br>
+                A Dream Wedding at Red Apple
+              </h3>
+              <div class="price align-self-start">Kshs.19,999/=</div>
+              <p class="description">
+                A Dream Wedding at Red Apple
+                Your Perfect Day, Our Perfect Setting
+                At Red Apple, we believe that every wedding is a unique and special occasion. Our stunning event spaces, exquisite cuisine, and impeccable service are the perfect backdrop for your dream wedding.  
+              </p>
+            </div><!-- End Event item -->
+  
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+  
+      </div>
+  
+    </section>
+
+  
+    <section id="book-a-table" class="book-a-table section">
+  
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Book A Table</h2>
+        <p><span>Book Your</span> <span class="description-title">Stay With Us<br></span></p>
+      </div>
+  
+      <div class="container">
+  
+        <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
+  
+          <div class="col-lg-4 reservation-img" style="background-image: url(static/assets/img/reservation.jpg);"></div>
+  
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg" data-aos="fade-up" data-aos-delay="200">
+            <form action="/booking_data/" method="post" role="form">
+              {% csrf_token %}
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="date" name="date" class="form-control" id="date" placeholder="Date" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="time" class="form-control" name="time" id="time" placeholder="Time" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="number" class="form-control" name="people" id="people" placeholder="No. of people" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="number" class="form-control" name="tablenumber" id="tablenumber" placeholder="Table Number" required="">
+                </div>
+              </div>
+
+              {% if messages %}
+              <div class="messages mt-3">
+                  {% for message in messages %}
+                  <div class="alert alert-{% if message.tags %}{{ message.tags }}{% endif %} alert-dismissible fade show" role="alert">
+                      {{ message }}
+                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+                  {% endfor %}
+              </div>
+              {% endif %}
+  
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+              </div>
+  
+              <div class="text-center mt-3">
+                <input type="submit" value="Book" class="btn btn-success">
+              </div>
+            </form>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </section>
+
+  
+ 
+    <section id="contact" class="contact section">
+  
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
+      </div>
+  
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  
+        <div class="mb-5">
+          <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31918.177891811665!2d35.25878475!3d0.27538225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1732866338962!5m2!1sen!2ske" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+  
+        <div class="row gy-4">
+  
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+              <i class="icon bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Uganda Road Street</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+2547 5823 0899</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>redapplehotel@mail.com</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
+              <i class="icon bi bi-clock flex-shrink-0"></i>
+              <div>
+                <h3>Opening Hours<br></h3>
+                <p><strong>Mon-Sat:</strong> 11AM - 10PM; <strong>Sunday:</strong> Closed</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+        <form action="/insert_data/" method="post" class="mt-4 form" data-aos="fade-up" data-aos-delay="600">
+          
+          {% csrf_token %}
+
+          <div class="row gy-4">
+  
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name e.g John Doe" required="">
+            </div>
+  
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email e.g john@mail.com" required="">
+            </div>
+  
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+  
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+  
+            <div class="col-md-12 text-center">
+              
+              <button type="submit" class="btn btn-success">Send Message</button>
+            </div>
+  
+          </div>
+        </form>
+  
+      </div>
+  
+    </section>
+ 
+</main>
+
+{% endblock %}
